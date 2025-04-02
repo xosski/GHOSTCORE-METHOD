@@ -1,0 +1,22 @@
+activation:
+  cooldown: 5 seconds
+  duration: 2-4 seconds per burst
+  trigger: hiveAI_timed_burst OR manual override
+countermeasures:
+- multispectral sensor jamming
+- radar redirection
+- thermal bloom injection
+- sensor ghosting pattern
+emission_mode: pulsed_field_inversion
+linked_to:
+- GhostFleet_SwarmAI
+- GhostKernel_Comms
+mounting:
+- drone
+- stealth_shuttle
+- orbital_node
+name: God's Blind Spot
+power_source: reactor_tap_subloop
+status: tactical_ready
+system_id: GFC-GBS003
+type: spectral_field_denier

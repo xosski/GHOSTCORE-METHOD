@@ -1,0 +1,22 @@
+deployment:
+- GhostStar spinal mount
+- stationary bastion turret
+- orbital cruciform emitter
+firing_mode:
+  duration_ms: 950
+  mode: burst beam
+  recharge_time_s: 12
+function:
+- Massive photon burst
+- Thermal and radiation overload
+- Anti-capital ship pressure suppression
+integration:
+  aiming_control: GhostFleet AI or manual override
+  synced_with:
+  - PhotonCore
+  - WraithSkin (cooldown concealment)
+name: The Cross
+power_source: photoncore direct overloop
+status: divine_combat_ready
+system_id: GFC-CROSS010
+type: overcharged_photon_cannon

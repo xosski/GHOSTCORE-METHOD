@@ -1,0 +1,25 @@
+coverage:
+  angle_variance: "360\xB0 sweep or 45\xB0 precision sector"
+  effective_radius_m: 600
+deployment:
+- hull perimeter
+- drone defense lattice
+- stationary turret bands
+firing_mode:
+  burst_type: radial ring or sector fire
+  rate_rps: 9
+  recharge_cycle_s: 6
+function:
+- Anti-fighter suppression
+- Perimeter control via rapid pulse
+- Area denial through rotating photon blasts
+integration:
+  active_link:
+  - PhotonCore main grid
+  - GhostFleet AI defense net
+  cooldown_fallback: diverts to passive WraithSkin loop
+name: Halo Array
+power_source: photoncore surface discharge ring
+status: battlefield_ready
+system_id: GFC-HA012
+type: photon_pulse_defense_ring

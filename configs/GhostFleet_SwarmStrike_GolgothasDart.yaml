@@ -1,0 +1,27 @@
+authorized_by: GhostKernel_CoreAuthority
+fleet_operation: Silent_Veil_Swarm_Strike
+initiator: GhostFleet HiveAI
+mission_type: coordinated_stealth_engagement
+priority: high
+stages:
+- action: approach_vector_silence
+  details: Fleet drifts toward target in EM-masking formation. No transmissions. WraithSkin
+    full wrap.
+  stage: 1
+- action: synchronization_burst
+  details: All drones receive encrypted terminal vectors via single quantum pulse.
+  stage: 2
+- action: Golgothas_Dart_release
+  details: Pods open silently. Golgotha's Darts fire in staggered timing to prevent
+    impact interference.
+  stage: 3
+- action: impact_silence
+  details: No telemetry returns expected. HiveAI performs passive post-strike pattern
+    scan.
+  stage: 4
+- action: reconverge_and_evade
+  details: Remaining drones reconverge under cloak. Data uplink deferred until re-entry
+    to deepfield orbit.
+  stage: 5
+status: combat_ready
+wraithskin_engaged: true

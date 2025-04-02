@@ -1,0 +1,23 @@
+activation:
+  burst_duration_s: 4
+  cycle_limit: 3
+  reverb_interval_s: 12
+deployment:
+- orbital mesh
+- drone ring
+- stealth corvette
+frequency: non-linear variable (quantum scrambling)
+function:
+- AI decision chain fracture
+- Signal logic corruption
+- Disruption of neural-linked targeting
+integration:
+  compatible_with:
+  - "Golgotha\u2019s Dart"
+  - Tower of Silence
+  used_for: infiltration, anti-fleet engagements
+name: Echo Fang Array
+power_source: quantum-tuned pulse wave
+status: field_deployable
+system_id: GFC-EFA005
+type: ai_signal_disruption_network

@@ -1,0 +1,31 @@
+ai_module:
+  core: GhostKernel Lite
+  modes:
+  - stealth_insertion
+  - autonomous_strike
+  - guided_terminal_lock
+  navigation: GhostHive-linked
+communications:
+  fallback: directional_rf
+  primary: quantum_burst
+deployment_modes:
+- ship_railgun_launch
+- self-propelled
+- covert_silent_glide
+drone_id: DRX-GL001
+legal_rationale:
+  compliance: non-fissile, reactor-sealed
+  treaty_safe: true
+name: GhostLance DRX
+payload:
+- kinetic strike (high-density slug)
+- EMP burst coil
+- plasma cone shield-bypass nose
+power_system:
+  output_range: "500W\u20135kW"
+  shielded: true
+  type: tpv_micro_reactor
+propulsion:
+  backup: thruster glider mode
+  primary: integrated railgun spine
+type: reactor-powered-strike-drone

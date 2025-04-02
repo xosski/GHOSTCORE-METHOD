@@ -1,0 +1,21 @@
+control:
+  mode: autonomous | ghostfleet_direct
+  safety: three-key_activation
+cooldown: auto-magnetic_dampened
+firing_modes:
+- single_slug
+- burst_mode
+name: Abaddon's Harrow
+power_source:
+  mode: dual_capacitor_bank
+  type: tpv_core
+range: orbital_to_ground | ship-to-ship
+signature: low_em
+slug_types:
+- tungsten
+- depleted_uranium
+- osmium
+status: prototype_ready
+type: orbital_railgun
+weapon_id: GCW-AR001
+wraithskin_integrated: true

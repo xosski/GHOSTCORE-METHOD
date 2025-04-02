@@ -1,0 +1,26 @@
+deployment:
+- drone-mounted
+- ship turret ring
+- station perimeter array
+frequency_control: "Variable 2.1\u20133.3 GHz (reactive waveguides)"
+function:
+- Disable electronic systems
+- Blind sensors, disrupt comms
+- Soft kill through directed energy
+integration:
+  linked_with:
+  - EMP Singularity
+  - Echo Fang Array
+  recommended_use: Pre-strike softening, AI confusion, sensor disruption
+modes:
+  burst_pulse: Quick-fire interference shot
+  focused_beam: High-precision electronics disruption
+  sweep_field: Cone-based disruption for clusters
+name: The Serpent's Tongue
+power_source: reactor_bleedline OR capacitor pulse
+range:
+  effective_sweep: 400m cone
+  max_directed: 1200m
+status: field_deployable
+system_id: GFC-TST011
+type: microwave_disruption_array

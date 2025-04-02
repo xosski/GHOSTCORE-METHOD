@@ -1,0 +1,24 @@
+activation:
+  cooldown_s: 90
+  duration_s: 10
+  radius_km: 5
+  trigger_method: HiveAI command burst OR manual override
+deployment:
+- orbital_station
+- cloaked_drop_core
+- ghostnode
+function:
+- Area-wide EMP disruption
+- Sensor veil via EM resonance harmonics
+- Temporary mass cloaking within dome radius
+integration:
+  compatible_with:
+  - WraithSkin
+  - Spectre Field Denier
+  requires_clearance: GhostKernel Auth Level 5
+name: WraithHalo
+power_source: reactor_capacitor_loop
+signature_emission: pre-detonation resonance pulse < 2ms
+status: classified_field_ready
+system_id: GFC-WH004
+type: area_cloaking_emp_dome

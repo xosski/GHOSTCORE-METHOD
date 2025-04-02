@@ -1,0 +1,22 @@
+activation:
+  cooldown_after_burst: 15s (auto-reset)
+  harmonic_response_time_ms: 4
+  reflection_mode: passive until breach
+deployment:
+- ship hull outer ring
+- orbital platforms
+- reactor shielding
+function:
+- Reflect incoming energy beams (laser/microwave/plasma)
+- Redirect radiation pulses
+- Adaptive shield harmonic tuning
+integration:
+  compatible_with:
+  - WraithSkin
+  - PhotonCore
+  defensive_rating: Tier-Zero (frontline countermeasure)
+name: Seraph's Mirror
+power_source: reactive core skin capacitors
+status: field_integrated
+system_id: GFC-SM009
+type: adaptive_radiation_reflector

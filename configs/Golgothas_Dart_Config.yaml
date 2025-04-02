@@ -1,0 +1,18 @@
+cooldown: none (one-use munition)
+deployment: ghostfleet_drone_pod
+guidance:
+  mode: fire_and_forget
+  terminal_lock: infrared + neural echo
+name: Golgotha's Dart
+payload:
+- plasma-tipped tungsten dart
+- optional EMP sheath
+- anti-AI signal burst
+propulsion:
+  backup: rail_coil_kick
+  primary: plasma_shaped_burst
+range_class: short_to_mid_orbital
+status: field_deployable
+type: drone_fired_plasma_tipped_strike
+weapon_id: GCW-GD002
+wraithskin_compatible: true

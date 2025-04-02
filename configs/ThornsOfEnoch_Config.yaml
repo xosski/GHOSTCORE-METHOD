@@ -1,0 +1,25 @@
+activation:
+  burst_spacing_ms: 200
+  launch_window_s: 6
+deployment:
+- drone hives
+- orbital release pods
+- mech weapon ports
+function:
+- Multi-vector plasma penetration
+- Shield shredding by saturation
+- Internal system disruption through swarm infiltration
+integration:
+  compatible_with:
+  - EMP Singularity
+  - WraithHalo
+  swarm_coordinated: true
+name: Thorns of Enoch
+power_source: reactor_burst_bank
+status: black_ops_active
+swarm_details:
+  dart_count: 72
+  flight_mode: spiral_chaos_tracking
+  payload: plasma needle + kinetic core
+system_id: GFC-TOE006
+type: plasma_microdart_swarm

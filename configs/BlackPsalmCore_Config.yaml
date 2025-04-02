@@ -1,0 +1,24 @@
+activation_protocol:
+  auth_level: GhostKernel_9
+  cooldown: irreversible
+  failsafe_trigger: HiveAI breach OR kernel integrity failure
+consequence:
+- Memory purge
+- Command circuit nullification
+- Fleet-wide communication collapse
+deployment:
+- GhostCommand node
+- Flagship AI spine
+- Deep kernel backup
+function:
+- Final fallback logic
+- GhostFleet silence activation
+- Zero-trace system incineration
+linked_systems:
+- GhostKernel_Core
+- Spectral Override Framework
+name: Black Psalm Core
+power_source: recursive TPV core loop
+status: sealed_under_protocol
+system_id: GFC-BPC008
+type: failsafe sovereign logic node

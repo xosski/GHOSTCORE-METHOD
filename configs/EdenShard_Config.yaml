@@ -1,0 +1,25 @@
+deployment:
+- spinal gun array
+- defense drone wings
+- stationary crystal turret
+firing_specs:
+  burst_length: "3\u20137 pulses"
+  rate_rpm: 180
+  recharge_cycle_s: 3
+function:
+- Mid-range photon pulse fire
+- Auto-pulsed crystal resonance strikes
+- High-accuracy lightneedle penetrator
+integration:
+  linkable_to:
+  - Halo Array
+  - Ghostflare Beam
+  refraction_assist: Seraph's Mirror, WraithHalo
+name: Eden Shard
+power_source: PhotonCore modulation array + micro-crystal oscillator
+status: active_fleet_ready
+system_id: GFC-ES013
+targeting:
+  guidance: photon lock-on + harmonic deflection counter-tracking
+  range_m: 2400
+type: crystal_photon_repeater
