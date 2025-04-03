@@ -1,0 +1,36 @@
+
+# GhostCore Swarm Doctrine Configuration
+operation:
+  codename: "FALLEN VEIL"
+  objective: "Urban Supremacy Overwatch - Alien Hostile Zones"
+  targets:
+    total_cities: 5
+    population_per_city: 10000000
+    area_per_city_km2: 1500
+    redundancy_factor: 1.25
+
+swarm_composition:
+  WRAITHBOLT:
+    role: "Precision Strike"
+    units: 18750
+    coverage_km2_per_unit: 0.5
+  SHADE:
+    role: "Combat Dominance"
+    units: 46875
+    coverage_km2_per_unit: 0.2
+  PHANTOM:
+    role: "Signal Disruption Recon"
+    units: 6250
+    coverage_km2_per_unit: 1.5
+  SPECTRE:
+    role: "Long-range Surveillance"
+    units: 4687
+    coverage_km2_per_unit: 2.0
+
+deployment:
+  carriers_required: 4
+  drones_per_carrier: 20000
+  method: "Orbital Dispersion & Atmospheric Descent"
+  staging_orbit: "LEO (500-700km)"
+  estimated_deployment_duration_minutes: 45
+  full_operational_readiness_minutes: 120
