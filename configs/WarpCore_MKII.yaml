@@ -1,0 +1,65 @@
+# WarpCore MkII Magnetic Field Warp Bubble Configuration
+
+WarpCore_MkII:
+  Description: >
+    A magnetic warp bubble generator using a three-toroid setup with six charged fields to induce space-time compression and expansion,
+    reducing inertial mass and enabling FTL-adjacent velocities through Spectral Shift maneuvers.
+  Toroids:
+    - Position: Upper
+      Charge_Configuration: [+100, -100]
+      Orientation: North-South
+    - Position: Middle
+      Charge_Configuration: [-30, +30]
+      Orientation: South-North
+    - Position: Lower
+      Charge_Configuration: [+100, -100]
+      Orientation: North-South
+  Magnetic_Field_Strength: ~7508 Gauss
+  Warp_Field:
+    Type: Magnetic Gravitational Quadrupole
+    Compression_Zone: Forward Toroid Array
+    Expansion_Zone: Aft Toroid Array
+  Drive_Modes:
+    - Mode: Spectral_Shift
+      Power_Draw: High
+      Effect: Local Inertial Suppression + Spacetime Curvature Compression
+    - Mode: Drift_Sync
+      Power_Draw: Medium
+      Effect: Quantum-Tuned Navigation Stability
+  Safety:
+    Redundancy_Coils: 2x Emergency Dump Fields
+    Coolant: Lead-Bismuth Eutectic + Active Heat Sink
+    Failsafe: Auto-vent Plasma Chamber if Overheat > 80%
+
+Integration:
+  Compatible_Systems:
+    - LazarusDrive
+    - SpectralDriftProtocol
+    - GhostNode Navigation Relay
+  Required_Power_Input: > 1200 MW (peak)
+  Output: Localized Warp Bubble + Mass Reduction Field
+# GhostCore Propulsion Module Configuration
+WarpCore_MkII:
+  name: Magnetic Field Warp Bubble Core
+  type: Electromagnetic Spacetime Curvature Engine
+  components:
+    - Triple Toroid Coil Array
+    - Positive/Negative Charge Dipoles
+    - Quantum Flux Stabilizer
+    - EM Confinement Ring
+  operation_modes:
+    - Bubble_Initiation
+    - Warp_Compression
+    - Spatial_Expansion
+    - Spectral_Shift_Surge
+  input_requirements:
+    power_source: TPV_Core
+    charge_array: 3_positive, 3_negative
+    activation_threshold_gauss: 7508
+  effects:
+    - Inertial_Mass_Reduction
+    - Spacetime_Distortion_Front/Rear
+    - Sub-luminal_Compression
+    - Distance_Contraction
+  fallback_mode:
+    - Lazarus_SpinDrive
